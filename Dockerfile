@@ -9,4 +9,4 @@ RUN npm install
 
 EXPOSE 10250
 
-CMD ["node", "app.js"]
+ENTRYPOINT ["node", "app.js"]
